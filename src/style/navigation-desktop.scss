@@ -1,9 +1,10 @@
-$font: "Arial";
+$font: "-apple-system,BlinkMacSystemFont,Arial,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue"sans-serif!important;
 $textColor: #646464;
 .navigation {
   background-color: rgb(245, 245, 245);
   font-family: $font;
   color: $textColor;
+  box-shadow: 1px 1px 1px #e5e5e5;
 
   &-container {
     width: 1200px;

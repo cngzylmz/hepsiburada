@@ -1,19 +1,16 @@
 <template>
   <div id="app">
     <Header/>
-    <NavigationDesktop/>
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header";
-import NavigationDesktop from "@/components/NavigationDesktop";
 
 export default {
   name: 'App',
   components: {
     Header,
-    NavigationDesktop
   }
 }
 </script>
