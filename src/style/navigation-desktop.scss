@@ -1,0 +1,51 @@
+$font: "Arial";
+$textColor: #646464;
+.navigation {
+  background-color: rgb(245, 245, 245);
+  font-family: $font;
+  color: $textColor;
+
+  &-container {
+    width: 1200px;
+    height: 56px;
+    color: #484848;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+
+  ul {
+    float: left;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    position:relative;
+
+    .menu-items {
+      font-size: 14px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      height: 56px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 30%;
+        width: 1px;
+        height: 24px;
+        background-color: #e5e5e5;
+        display: block;
+      }
+      .menu-text {
+        display: block;
+        margin: 5px auto;
+        padding: 0 22px;
+      }
+    }
+  }
+}
+
+
